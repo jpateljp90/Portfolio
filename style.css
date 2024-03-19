@@ -22,7 +22,7 @@
  li{
     display: inline;
     float: left;
-    padding: 14px, 16px;
+    padding: 14px 16px;
  }
 
  /*Transitions*/
@@ -160,8 +160,8 @@
  }
   
  img {
-    width: 800px;
-    height: 900px;
+    width: 500px;
+    height: 700px;
     border-radius: 50%;
   }
 
@@ -224,7 +224,7 @@
     gap: 2rem;
 }
 /*ICON*/
-
+ 
 .icon{
     cursor: pointer;
     height: 2rem;
@@ -272,6 +272,63 @@
 }
 .btn-container{
     gap:1rem;
+}
+
+
+/* ABout section*/
+
+#about{
+   position: relative;
+
+}
+.about-containers{
+   gap: 2rem;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+
+}
+.about-details-container{
+
+   justify-content: center;
+   flex-direction: column;
+
+}
+.about-containers,.about-details-container{
+   display: flex;
+
+}
+
+.about-pic{
+   border-radius: 2rem;
+   height: 400px;
+   width: 400px;
+}
+
+.arrow{
+   position: absolute;
+   right: -5rem;
+   bottom: 2.5rem;
+}
+
+.details-container{
+   padding: 1.5rem;
+   flex: 1rem;
+   background: white;
+   border-radius: 2rem;
+   border: rgb(53, 53, 53) 0.1rem solid;
+   border-color: rgb(163, 163, 163);
+   text-align: center;
+
+}
+.section-container{
+   gap: 4rem;
+   height: 80%;
+}
+.section__pic-container{
+   height: 400px;
+   width: 400px;
+   margin: auto 0;
+
 }
 
 
