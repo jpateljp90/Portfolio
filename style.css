@@ -434,6 +434,17 @@ background-color: rgb(250, 250, 250);
    height: 2.5rem;
 }
 
+/* Footer Section */
+
+footer{
+   height: 26vh;
+   margin: 0.1rem;
+
+}
+footer p{
+   text-align: center;
+   
+}
 
 
 
